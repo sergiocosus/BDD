@@ -4,7 +4,11 @@ Data delivery it  related data delivery from sites where they are stored to wher
 There are three ortogonal dimensions into data delivery alternatives (DDA) 
 	a) Delivery modes: are pull-only, push- only and hybrid.
 		a.1) Pull-only mode of data delivery: The transfer of data from servers to clientes is initiated by a client pull. Conventional DBMS offer primarily pull-based data delivery
-		a.2)
-	b) Delivery frequency and
+		a.2) Push-only mode of data delivery the transfer of data sfrom server to clients is initialited by a server push in the absence of any specific request from clients (Alternatives: periodic, irregular or conditional)
+		a.3) Hybrid mode of data delivery combines the client- pull an dserver-push mechanism.
+	b) Delivery frequency:There are three typical frecuency measurents that can be used to classify the regularity of data delivery.
+		b.1) Periodic delivery, data are sent from servers to clients at irregular intervals. Both pull and push can be performed in periodic fashion.
+		b.2) Conditional delivery, data are sent from server swhenever certains conditions installed by clients in their profiles are satisfied. Inconditional delivery is mos used in the hybrid and or push delivery systems.
+		b.3) Ad-hoc delivery is irregula rand is performed mostly in a pure pull-based system. Data are pulled from servers to clients in a Ad-hos fashion whener clients request it.
 	c) Comunication methods
 
